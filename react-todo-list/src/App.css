@@ -1,0 +1,165 @@
+
+body{
+
+  background-size: cover ;
+  height: 100%;
+  background-color: #c89666;
+  color: #c89666;
+}
+
+.app-container{
+  
+  text-align: center;
+  border: 3px black solid;
+  min-height: 450px;
+  width: 80vh;
+  margin: 50px 0px 0px 520px;
+  background-color: #12343b;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+
+
+.taskBg{
+  background-color:#555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+
+.taskBg div{
+  display: flex;
+  align-items: center;
+}
+
+.task-index{
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBg .task-txt{
+  flex: 1;
+  color: white;
+}
+
+.taskBg .done .task-txt{
+  text-decoration: line-through;
+  opacity: 0.3;
+  flex: 1;
+}
+
+.icon-wrapper{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.taskBg .icon-wrapper span{
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  
+}
+
+.taskBg .icon-wrapper span:hover{
+  color:blue;
+}
+
+.task-form{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.task-form .input input {
+  height: 30px;
+  border-radius: 4px;
+  width: 250px;
+  border: white;
+}
+
+.button {
+  padding-left: 10px;
+}
+
+.button1 {
+  padding-left: 10px;
+}
+
+.buttonI{
+  height: 34px;
+  border-radius: 4px;
+  width: 120px;
+  background-color: green;
+  border: green;
+  color: white;
+  font-weight: 600;
+}
+
+.buttonI:hover{
+  background-color: #12343b;
+  border: 2px green solid;
+  color: white;
+}
+
+.buttonII{
+  height: 34px;
+  border-radius: 4px;
+  width: 120px;
+  background-color: yellow;
+  border: yellow;
+  color: black;
+  font-weight: 600;
+}
+
+.task-form1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.task-form1 .input input{
+  height: 30px;
+  border-radius: 4px;
+  width: 200px;
+  border: white;
+}
+
+.uButtonI{
+  height: 34px;
+  border-radius: 4px;
+  width: 100px;
+  background-color: green;
+  border: green;
+  color: white;
+  font-weight: 600;
+}
+
+.uButtonII{
+  height: 34px;
+  border-radius: 4px;
+  width: 100px;
+  background-color: yellow;
+  border: yellow;
+  color: black;
+  font-weight: 600;
+}
+
+
+
